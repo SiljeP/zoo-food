@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.drag{
+position:absolute;
+width: 100px;
+height :100px;
+background-color: lightblue;
+}
+
+
+.drop{
+width: 150px;
+height: 150px;
+background-color: forestgreen;
+position: absolute;
+right: 30px;
+bottom: 30px;
+}
