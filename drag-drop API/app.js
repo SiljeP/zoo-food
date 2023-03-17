@@ -23,7 +23,7 @@
 
 const FORM = document.querySelector ("form")
 
-FORM.addEventListener("submt", submitHandler)
+FORM.addEventListener("submit", submitHandler)
 
 function submitHandler(event){
 event.preventDefault()

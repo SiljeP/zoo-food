@@ -4,3 +4,107 @@
     box-sizing: border-box;
 }
 
+.intro{
+    margin: auto;
+    text-align: center;
+}
+
+div, p{
+    text-align: center;
+}
+
+/*foods-drag*/
+
+.food{
+    margin-top: 2rem;
+}
+
+.leaves{
+position:relative;
+width: 150px;
+height :150px;
+background-color: rgb(27, 132, 168);
+display: inline-block;
+}
+
+.mean-teachers{
+position: relative;
+width: 150px;
+height: 150px;
+background-color: rgb(106, 218, 237);
+display: inline-block;
+}
+
+.fish{
+position:relative;
+width: 150px;
+height :150px;
+background-color: rgb(21, 51, 61);
+display: inline-block;
+}
+
+/* ANIMALS */
+
+.animals{
+    margin-top: 2rem;
+}
+.sloth{
+    width: 150px;
+    height: 150px;
+    background-color: forestgreen;
+    position: relative;
+    display: inline-block;
+    
+        
+}
+
+.tiger{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(75, 255, 75);
+    position: relative;
+    display: inline-block;
+    
+
+}
+
+.otter{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(37, 68, 37);
+    position: relative;
+    display: inline-block; 
+
+    
+}
+
+/* IMAGES */
+.tiger__img{
+    width: 100%;
+    height: 100%
+}
+
+.otter__img{
+    width: 100%;
+    height: 100%
+}
+
+.sloth__img{
+    width: 100%;
+    height: 100%
+}
+
+.teacher__img{
+    width: 100%;
+    height: 100%
+}
+
+.leaves__img{
+    width: 100%;
+    height: 100%
+}
+
+.fish__img{
+    width: 100%;
+    height: 100%
+}
