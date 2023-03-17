@@ -1,23 +1,23 @@
-//const DRAG = document.querySelector(".drag")
-//const DROP = document.querySelector(".drop")
+const DRAG = document.querySelector(".drag")
+const DROP = document.querySelector(".drop")
 
-//DRAG.addEventListener("dragend", dragHandler)
+DRAG.addEventListener("dragend", dragHandler)
 
-//DROP.addEventListener("drop", dropHandler)
-//DROP.addEventListener("dragover", dragOverHandler)
+DROP.addEventListener("drop", dropHandler)
+DROP.addEventListener("dragover", dragOverHandler)
 
-//function dragHandler (event) {
-    //event.target.style.left = event.x + "px"
-    //event.target.style.top = event.y +  "px"
-//}
+function dragHandler (event) {
+    event.target.style.left = event.x + "px"
+    event.target.style.top = event.y +  "px"
+}
 
-//function dropHandler (event) {
-    //alert ("hurra!") 
-//}
+function dropHandler (event) {
+    alert ("hurra!") 
+}
 
-//function dragOverHandler (event) {
-    //event.preventDefault()
-//}
+function dragOverHandler (event) {
+    event.preventDefault()
+}
 
 
 

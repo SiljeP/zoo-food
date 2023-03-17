@@ -11,6 +11,13 @@
 
 div, p{
     text-align: center;
+  
+}
+h2, h1{
+    text-align: center;
+    font-family: 'Rubik Iso', cursive;
+    font-size: xx-large;
+    margin-top: 2rem;
 }
 
 /*foods-drag*/
@@ -23,15 +30,17 @@ div, p{
 position:relative;
 width: 150px;
 height :150px;
-background-color: rgb(27, 132, 168);
+background-color: rgb(200, 200, 200);
+border-radius: 5em;
 display: inline-block;
 }
 
-.mean-teachers{
+.teacher{
 position: relative;
 width: 150px;
 height: 150px;
-background-color: rgb(106, 218, 237);
+background-color: rgb(200, 200, 200);
+border-radius: 5em;
 display: inline-block;
 }
 
@@ -39,7 +48,8 @@ display: inline-block;
 position:relative;
 width: 150px;
 height :150px;
-background-color: rgb(21, 51, 61);
+background-color: rgb(200, 200, 200);
+border-radius: 5em;
 display: inline-block;
 }
 
@@ -51,7 +61,6 @@ display: inline-block;
 .sloth{
     width: 150px;
     height: 150px;
-    background-color: forestgreen;
     position: relative;
     display: inline-block;
     
@@ -61,7 +70,6 @@ display: inline-block;
 .tiger{
     width: 150px;
     height: 150px;
-    background-color: rgb(75, 255, 75);
     position: relative;
     display: inline-block;
     
@@ -71,7 +79,6 @@ display: inline-block;
 .otter{
     width: 150px;
     height: 150px;
-    background-color: rgb(37, 68, 37);
     position: relative;
     display: inline-block; 
 
@@ -79,32 +86,7 @@ display: inline-block;
 }
 
 /* IMAGES */
-.tiger__img{
-    width: 100%;
-    height: 100%
-}
-
-.otter__img{
-    width: 100%;
-    height: 100%
-}
-
-.sloth__img{
-    width: 100%;
-    height: 100%
-}
-
-.teacher__img{
-    width: 100%;
-    height: 100%
-}
-
-.leaves__img{
-    width: 100%;
-    height: 100%
-}
-
-.fish__img{
+.tiger__img, .otter__img, .sloth__img, .teacher__img, .leaves__img, .fish__img{
     width: 100%;
     height: 100%
 }

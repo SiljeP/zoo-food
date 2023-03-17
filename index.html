@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoo food</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,36 +20,42 @@
     <div>
         <p>Point</p>
     </div>
-    <!-- FOOD -->
-    <div class="food">
-        <div class="leaves" draggable="true">
-            <img class="leaves__img" src="/images/leaves.png" alt="blade">
-            <p>Leaves</p>
-        </div>
 
-        <div class="fish" draggable="true">
-            <img class="fish__img" src="/images/fish.png" alt="lille fisk">
-            <p>fish</p>
-        </div>
-
-        <div class="mean-teachers" draggable="true">
-            <img class="teacher__img" src="/images/teacher.png" alt="that mean lady from harry potter">
-            <p>mean teachers</p>
-        </div>
-    </div>
-
-    <!-- ANIMALS -->
+    <h2>Dyrene</h2>
+    <!-- ANIMALS DROP -->
     <div class="animals">
-        <div class="tiger">
-            <img class="tiger__img" src="/images/tiger.png" alt="doopy tiger">
+        <div class="tiger" >
+            <img draggable="false"class="tiger__img" src="/images/tiger.png" alt="doopy tiger">
+            <p>Tiger</p>
         </div>
-        <div class="sloth">
-            <img class="sloth__img" src="/images/sloth.png" alt="scary sloth">
+        <div class="sloth" >
+            <img draggable="false" class="sloth__img" src="/images/sloth.png" alt="scary sloth">
+            <p>Sloth</p>
         </div>
         <div class="otter">
-            <img class="otter__img" src="/images/otter.png" alt="cute otter">
+            <img  draggable="false" class="otter__img" src="/images/otter.png" alt="cute otter">
+            <p>Otter</p>
         </div>
 </div>
+<h2>Maden</h2>
+  <!-- FOOD DRAGG-->
+  <div class="food">
+    <div class="leaves" draggable="true">
+        <img class="leaves__img" src="/images/leaves.png" alt="blade">
+        <p>Leaves</p>
+    </div>
+
+    <div class="fish" draggable="true">
+        <img class="fish__img" src="/images/fish.png" alt="lille fisk">
+        <p>Fish</p>
+    </div>
+
+    <div class="teacher" draggable="true">
+        <img class="teacher__img" src="/images/teacher.png" alt="that mean lady from harry potter">
+        <p>Mean teacher</p>
+    </div>
+</div>
+
     <script src="java.js"></script>   
 </body>
 </html>
